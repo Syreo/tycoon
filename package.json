@@ -1,0 +1,31 @@
+{
+  "name": "angualrjs-seed",
+  "description": "A starter project for angular js",
+  "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "scripts": {
+        "start": "node node_modules/grunt-cli/bin/grunt",
+        "test": "node node_modules/grunt-cli/bin/grunt test"
+    },
+   "dependencies": {
+        "express": "latest",
+        "cookie-parser": "latest",
+        "body-parser": "latest",
+        "mongoose": "latest",
+        "connect-mongo": "latest",
+        "connect-flash": "latest",
+        "async": "latest",
+        "grunt": "latest",
+        "grunt-cli": "latest"
+    },
+  "devDependencies": {
+        "phantomjs" : "*",
+        "karma" : "*",
+        "karma-junit-reporter" : "*",    
+        "karma-jasmine" : "*",
+        "grunt-nodemon": "latest",
+        "karma-ng-scenario" : "*"
+    }
+}
